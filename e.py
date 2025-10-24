@@ -17,7 +17,7 @@ def can_vote(age):
         return None
     if age < 0:
         return None
-    return age >= 18
+    return age >= 20
 
 if __name__ == "__main__":
     age_input = input("Enter your age: ")
