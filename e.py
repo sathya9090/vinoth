@@ -29,4 +29,5 @@ if __name__ == "__main__":
     else:
         years = 18 - int(age_input)
         print(f"You are not eligible to vote. Come back in {years} year{'s' if years != 1 else ''}.")
+        print("thanks for use this code")                
 # ...existing code...
